@@ -189,15 +189,21 @@ nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home header {
+header {
   width: 100%;
+  border-bottom: 2px dashed #C0C0C0;
+  color: #212529;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navDiv {
+  width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
-  color: #212529;
 }
 .home .funBusSection {
   display: flex;
