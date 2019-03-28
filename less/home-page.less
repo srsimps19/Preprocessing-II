@@ -1,13 +1,14 @@
 .home {
   
   header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
-    width: 100%;
+    color: @shark;
   }
 
   .funBusSection {
@@ -80,6 +81,11 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .button(@eastern-blue, white);
+      }
+  
     }
   }
 }// home
